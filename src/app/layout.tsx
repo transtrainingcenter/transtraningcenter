@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css";
+import "./global.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`bg-blue-800 ${inter.className}`}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`bg-blue-800 text-blue-100 ${inter.className}`}>
         <Navbar />
         {children}
         <Footer />
