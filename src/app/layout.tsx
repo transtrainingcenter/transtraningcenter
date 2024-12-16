@@ -11,6 +11,23 @@ export const metadata: Metadata = {
   title: "TRANS TRAINING CENTER - PT. Trans Putra Pratama",
   description:
     "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
+  openGraph: {
+    url: "https://transtrainingcenter.vercel.app",
+    type: "website",
+    title: "TRANS TRAINING CENTER - PT. Trans Putra Pratama",
+    description:
+      "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
+    image: "https://transtrainingcenter.vercel.app/banner.png", // Pastikan Anda mengisi URL gambar yang sesuai jika ada
+  },
+  twitter: {
+    card: "summary_large_image",
+    domain: "transtrainingcenter.vercel.app",
+    url: "https://transtrainingcenter.vercel.app",
+    title: "TRANS TRAINING CENTER - PT. Trans Putra Pratama",
+    description:
+      "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
+    image: "https://transtrainingcenter.vercel.app/banner.png", // Pastikan Anda mengisi URL gambar yang sesuai jika ada
+  },
 };
 
 export default function RootLayout({
