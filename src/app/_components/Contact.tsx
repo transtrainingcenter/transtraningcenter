@@ -26,11 +26,13 @@ const Contact = () => {
         <div className="bg-blue-100 aspect-video">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.878802963019!2d114.1764329!3d-8.4135624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd3ffe87ed45345%3A0x6035daee1b9aabe1!2sPT.%20Trans%20Putra%20Pratama!5e0!3m2!1sid!2sid!4v1734382521784!5m2!1sid!2sid"
-            width="600"
+            width="100%"
             height="450"
-            allowfullscreen=""
+            style={{ border: 0 }}
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Google Map"
           ></iframe>
         </div>
       </SectionContainer>
