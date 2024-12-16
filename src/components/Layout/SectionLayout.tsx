@@ -1,7 +1,7 @@
 interface SectionLayoutProps {
-  heading: string;
-  id: string;
-  children: React.ReactNode;
+  heading?: string;
+  id?: string;
+  children?: React.ReactNode;
 }
 
 const SectionLayout = ({heading, id, children} : SectionLayoutProps) => {

@@ -1,3 +1,4 @@
+import { SocialMedia } from "@/components/Elements/SocialMedia";
 import { Logo } from "@/components/Elements/Logo";
 import { Button } from "@/components/Elements/Button";
 import {
@@ -9,8 +10,14 @@ const dataFooterLinks: FooterLinksProps[] = [
   {
     heading: "Follow Us",
     links: [
-      { title: "Instagram", href: "https://instagram.com" },
-      { title: "WhatsApp", href: "https://whatsapp.com" },
+      {
+        title: "Instagram",
+        href: "https://www.instagram.com/transtrainingcenter",
+      },
+      {
+        title: "WhatsApp",
+        href: "https://wa.me/6282336802981?text=Halo,%20saya%20ingin%20bertanya%20tentang%20program%20pembelajaran%20kerja%20ke%20tambang%20di%20Trans%20Training%20Center.%20Bisakah%20saya%20mendapatkan%20informasi%20tentang%20pendaftaran,%20jadwal,%20dan%20biaya%3F%20Terima%20kasih!",
+      },
     ],
   },
   {
@@ -34,6 +41,7 @@ const Footer = () => {
         <p className="text-base">
           Lembaga Pelatihan Teknisi & Operator Alat Berat
         </p>
+        <SocialMedia />
       </div>
 
       <FooterLinks data={dataFooterLinks} />

@@ -1,13 +1,28 @@
-const Card = () => {
+import Image from "next/image";
+
+const Card = ({
+  heading = "Heading",
+  description = "Description",
+  image = "/profile.png",
+}: {
+  heading: string;
+  description: string;
+  image: string;
+}) => {
   return (
     <div className="flex lg:w-[49%] gap-2 items-center">
-      <div className="bg-blue-100 aspect-square w-24"></div>
+      <div className="bg-blue-100 flex overflow-clip aspect-square w-24">
+        <Image
+          className="aspect-square w-24 object-cover"
+          src={image}
+          width={96}
+          height={96}
+          alt={`Picture of the author ${heading}`}
+        />
+      </div>
       <div className="w-8/12">
-        <h4 className="text-lg font-bold">Haris Setiawan M.T</h4>
-        <p>
-          Mechanic, Foreman, Training Spv. 13 Years Experienced. PT. UT , PT.
-          BUMA, PT. ARKANANTA
-        </p>
+        <h4 className="text-lg font-bold">{heading}</h4>
+        <p>{description}</p>
       </div>
     </div>
   );

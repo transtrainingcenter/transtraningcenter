@@ -21,7 +21,7 @@ const NavMenu = () => {
             <Link href="#gallery">Gallery</Link>
             <Link href="#contact">Contact</Link>
           </nav>
-          <Link href="/">
+          <Link href="https://wa.me/6282336802981?text=Halo,%20saya%20ingin%20bertanya%20tentang%20program%20pembelajaran%20kerja%20ke%20tambang%20di%20Trans%20Training%20Center.%20Bisakah%20saya%20mendapatkan%20informasi%20tentang%20pendaftaran,%20jadwal,%20dan%20biaya%3F%20Terima%20kasih!">
             <Button className="w-full self-end">Get Services</Button>
           </Link>
         </div>
@@ -38,4 +38,4 @@ const NavMenu = () => {
   );
 };
 
-export { NavMenu }
+export { NavMenu };

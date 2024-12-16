@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card } from "@/components/Elements/Card";
 import { SectionLayout } from "@/components/Layout/SectionLayout";
 import { SectionContainer } from "@/components/Fragments/SectionContainer";
@@ -13,7 +14,15 @@ const About = () => {
           dalam bidang Alat Berat serta menjadi partner terpercaya dalam
           peningkatan dan pengembangan bisnis.
         </p>
-        <div className="bg-blue-100 aspect-video"></div>
+        <div className="bg-blue-100 aspect-video">
+          <Image
+            className="aspect-video object-cover"
+            src="/about.jpg"
+            width={600}
+            height={450}
+            alt="Picture of the about"
+          />
+        </div>
       </SectionContainer>
 
       <SectionContainer col="grid-cols-1">
@@ -49,30 +58,91 @@ const About = () => {
 
       <SectionContainer heading="Founder" col="grid-cols-1">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-2">
-          <Card />
-          <Card />
+          <Card
+            image={"/p1.jpg"}
+            heading={"Safety Nadira"}
+            description={
+              "Expertize : Personality & Character Building,  Plant Operation, Customer Support and  Business Development."
+            }
+          />
+          <Card
+            image={"/p2.jpg"}
+            heading={"Haris Setiawan M.T"}
+            description={
+              "13 Years Experienced. PT. UT , PT. BUMA, PT.  ARKANANTA and Expertize : Mechanic, Foreman, Training Spv."
+            }
+          />
         </div>
       </SectionContainer>
 
       <SectionContainer heading="Team Trainer" col="grid-cols-1">
         <div className="flex flex-col lg:flex-row lg:flex-wrap lg:justify-between gap-2">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card
+            image={"/p1.jpg"}
+            heading={"Safety Nadira"}
+            description={
+              "Expertize : Personality & Character Building,  Plant Operation, Customer Support and  Business Development."
+            }
+          />
+          <Card
+            image={"/p2.jpg"}
+            heading={"Haris Setiawan M.T"}
+            description={
+              "13 Years Experienced. PT. UT , PT. BUMA, PT.  ARKANANTA and Expertize : Mechanic, Foreman, Training Spv."
+            }
+          />
+          <Card
+            image={"/p3.jpg"}
+            heading={"Ardiansyah"}
+            description={"2 years PT. KAMAJU, PT. MBT - Mechanic - TC  HEAD"}
+          />
+          <Card
+            image={"/p4.jpg"}
+            heading={"Fatur Rohman"}
+            description={
+              "2 Years PT KAMAJU, PT FREEPORT INDONESIA - Mechanic - Jr Instructor"
+            }
+          />
+          <Card
+            image={"/p5.jpg"}
+            heading={"Khairul Anam"}
+            description={"2 Year PT TMU - Mechanic - Jr Instructor"}
+          />
         </div>
       </SectionContainer>
 
       <SectionContainer heading="Team Administration" col="grid-cols-1">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-2">
-          <Card />
-          <Card />
+          <Card
+            image={"/p6.jpg"}
+            heading={"Ali Dzikri S.Kom"}
+            description={
+              "Wakil Direktur - IT Maintenance,Recruitment Trainee, Software management"
+            }
+          />
+          <Card
+            image={"/p7.jpg"}
+            heading={"Ummy Hanny"}
+            description={"Admin Keuangan"}
+          />
+          <Card
+            image={"/p8.jpg"}
+            heading={"Milenia Adinda Ramadani, S.P"}
+            description={"Admin Dokumen & File siswa"}
+          />
         </div>
       </SectionContainer>
 
       <SectionContainer heading="Organizational Structure" col="grid-cols-1">
-        <div className="bg-blue-200 aspect-video"></div>
+        <div className="aspect-video">
+          <Image
+            className="aspect-video w-full object-fit"
+            src="/organisasi.png"
+            width={600}
+            height={450}
+            alt="Picture of the Organisasi"
+          />
+        </div>
       </SectionContainer>
     </SectionLayout>
   );
