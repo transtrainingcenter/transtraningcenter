@@ -12,35 +12,20 @@ export const metadata: Metadata = {
   description:
     "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
   openGraph: {
-    url: "https://transtrainingcenter.vercel.app",
     type: "website",
     title: "TRANS TRAINING CENTER - PT. Trans Putra Pratama",
     description:
       "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
-    images: [
-      {
-        url: "https://transtrainingcenter.vercel.app/banner.png",
-        width: 1200, // Tentukan lebar gambar
-        height: 630, // Tentukan tinggi gambar
-        alt: "Trans Training Center Banner", // Deskripsi gambar
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
-    domain: "transtrainingcenter.vercel.app",
-    url: "https://transtrainingcenter.vercel.app",
     title: "TRANS TRAINING CENTER - PT. Trans Putra Pratama",
     description:
       "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
-    images: [
-      {
-        url: "https://transtrainingcenter.vercel.app/banner.png",
-        width: 1200, // Tentukan lebar gambar
-        height: 630, // Tentukan tinggi gambar
-        alt: "Trans Training Center Banner", // Deskripsi gambar
-      },
-    ],
+    siteId: "1467726470533754880",
+    creator: "@YourTwitterHandle", // Ganti dengan handle Twitter yang sesuai
+    creatorId: "1467726470533754880",
+    images: ["https://transtrainingcenter.vercel.app/banner.png"], // Ganti dengan URL gambar yang sesuai
   },
 };
 
