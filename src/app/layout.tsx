@@ -17,7 +17,14 @@ export const metadata: Metadata = {
     title: "TRANS TRAINING CENTER - PT. Trans Putra Pratama",
     description:
       "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
-    image: "https://transtrainingcenter.vercel.app/banner.png", // Pastikan Anda mengisi URL gambar yang sesuai jika ada
+    images: [
+      {
+        url: "https://transtrainingcenter.vercel.app/banner.png",
+        width: 1200, // Tentukan lebar gambar
+        height: 630, // Tentukan tinggi gambar
+        alt: "Trans Training Center Banner", // Deskripsi gambar
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -26,7 +33,14 @@ export const metadata: Metadata = {
     title: "TRANS TRAINING CENTER - PT. Trans Putra Pratama",
     description:
       "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
-    image: "https://transtrainingcenter.vercel.app/banner.png", // Pastikan Anda mengisi URL gambar yang sesuai jika ada
+    images: [
+      {
+        url: "https://transtrainingcenter.vercel.app/banner.png",
+        width: 1200, // Tentukan lebar gambar
+        height: 630, // Tentukan tinggi gambar
+        alt: "Trans Training Center Banner", // Deskripsi gambar
+      },
+    ],
   },
 };
 
