@@ -17,68 +17,76 @@ const Hero = () => {
         </p>
         <Button>Get Services</Button>
         <div className="grid grid-cols-3 md:grid-cols-4 gap-4 mt-8 lg:w-8/12">
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps1.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps2.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps3.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps4.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps5.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps6.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps7.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps8.jpg"
               width={120}
               height={90}
               alt="Picture of the Partner Ship"
+              className="object-cover w-full"
             />
           </div>
         </div>
@@ -89,7 +97,7 @@ const Hero = () => {
           className="bg-primary hidden lg:block lg:w-10/12"
         >
           <Image
-            className="border m-auto w-full transition-all duration-300 ease-in-out transform hover:brightness-100 hover:scale-110 hover:z-20"
+            className="border m-auto w-full transition-all duration-300 ease-in-out transform hover:brightness-100 hover:scale-110 hover:z-20 object-cover"
             src="/bg3.jpg"
             width={300}
             height={300}

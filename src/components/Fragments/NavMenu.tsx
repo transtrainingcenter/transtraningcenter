@@ -1,19 +1,29 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react"; // Import useEffect
 import { X, AlignRight } from "lucide-react";
 import { Button } from "@/components/Elements/Button";
 
 const NavMenu = () => {
   const [isNavMenuOpen, setIsNavMenuOpen] = useState<boolean>(false);
+  const [isClient, setIsClient] = useState(false); // Menambahkan state untuk menandai apakah komponen sedang dirender di klien
+
+  // Menandakan bahwa komponen sudah dirender di klien
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null; // Menghindari render server-side
+  }
 
   return (
     <div>
       <div
-        className={`${isNavMenuOpen ? "absolute w-screen h-screen " : "hidden"} lg:block -z-40 top-0 left-0 right-0 bg-blue-800`}
+        className={`${isNavMenuOpen ? "absolute w-screen h-screen " : "hidden"} lg:block -z-40 top-0 left-0 right-0 bg-blue-800 transition-all duration-300 ease-in-out`}
       >
-        <div className="container flex flex-col lg:flex-row justify-between gap-4 lg:items-center h-full lg:py-4  py-28 ">
+        <div className="container flex flex-col lg:flex-row justify-between gap-4 lg:items-center h-full lg:py-4 py-28 ">
           <nav className="flex flex-col font-bold lg:flex-row justify-center gap-4">
             <Link href="/">Home</Link>
             <Link href="#about">About Us</Link>
@@ -31,6 +41,7 @@ const NavMenu = () => {
         onClick={() => {
           setIsNavMenuOpen(!isNavMenuOpen);
         }}
+        aria-label={isNavMenuOpen ? "Close menu" : "Open menu"} // Nama tombol yang dapat diakses
       >
         {isNavMenuOpen ? <X size={32} /> : <AlignRight size={32} />}
       </button>
