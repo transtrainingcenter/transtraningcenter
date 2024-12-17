@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/Elements/Button";
 
@@ -15,7 +16,7 @@ const Hero = () => {
           kompeten.
         </p>
         <Button>Get Services</Button>
-        <div className="grid grid-cols-3 gap-4 mt-8 lg:w-8/12">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-4 mt-8 lg:w-8/12">
           <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps1.jpg"
@@ -82,27 +83,19 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center items-center">
-        <div className="relative w-full aspect-video">
-          <div className="bg-primary w-full">
-            <Image
-              className="border absolute top-0 left-0 aspect-video w-10/12 brightness-50 transition-all duration-299 ease-in-out transform hover:brightness-100 hover:w-11/12 hover:z-20"
-              src="/bg1.jpg"
-              width={300}
-              height={300}
-              alt="Picture of the Partner Ship"
-            />
-          </div>
-          <div className="bg-blue-500 w-full">
-            <Image
-              className="border absolute bottom-0 right-0 aspect-video w-10/12 brightness-50 transition-all duration-300 ease-in-out transform hover:brightness-100 hover:w-11/12 hover:z-20"
-              src="/bg2.jpg"
-              width={120}
-              height={300}
-              alt="Picture of the Partner Ship"
-            />
-          </div>
-        </div>
+      <div className="flex w-full justify-center gap-8 items-center">
+        <Link
+          href="https://www.instagram.com/p/CsShYpoLa36/?img_index=1"
+          className="bg-primary hidden lg:block lg:w-10/12"
+        >
+          <Image
+            className="border m-auto w-full transition-all duration-300 ease-in-out transform hover:brightness-100 hover:scale-110 hover:z-20"
+            src="/bg3.jpg"
+            width={300}
+            height={300}
+            alt="Picture of the Partner Ship"
+          />
+        </Link>
       </div>
     </main>
   );
