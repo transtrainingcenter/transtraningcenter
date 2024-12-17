@@ -3,7 +3,7 @@ import { Button } from "@/components/Elements/Button";
 
 const Hero = () => {
   return (
-    <main className="container pt-28 lg:pb-20 lg:pt-48 pb-10 flex flex-col lg:flex-row">
+    <main className="container pt-28 lg:pb-20 lg:pt-48 pb-10 gap-10 flex flex-col lg:flex-row">
       <div>
         <h1 className="text-3xl font-bold">
           PT. <span className="text-yellow-500">Trans Putra Pratama</span>
