@@ -17,7 +17,7 @@ const NavMenu = () => {
           <nav className="flex flex-col font-bold lg:flex-row justify-center gap-4">
             <Link href="/">Home</Link>
             <Link href="#about">About Us</Link>
-            <Link href="#programs">Programs</Link>
+            <Link href="#products">Products</Link>
             <Link href="#gallery">Gallery</Link>
             <Link href="#contact">Contact</Link>
           </nav>

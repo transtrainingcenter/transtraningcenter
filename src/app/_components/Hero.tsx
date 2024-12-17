@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
         <Button>Get Services</Button>
         <div className="grid grid-cols-3 gap-4 mt-8 lg:w-8/12">
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps1.jpg"
               width={120}
@@ -24,7 +24,7 @@ const Hero = () => {
               alt="Picture of the Partner Ship"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps2.jpg"
               width={120}
@@ -32,7 +32,7 @@ const Hero = () => {
               alt="Picture of the Partner Ship"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps3.jpg"
               width={120}
@@ -40,7 +40,7 @@ const Hero = () => {
               alt="Picture of the Partner Ship"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps4.jpg"
               width={120}
@@ -48,7 +48,7 @@ const Hero = () => {
               alt="Picture of the Partner Ship"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps5.jpg"
               width={120}
@@ -56,7 +56,7 @@ const Hero = () => {
               alt="Picture of the Partner Ship"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps6.jpg"
               width={120}
@@ -64,7 +64,7 @@ const Hero = () => {
               alt="Picture of the Partner Ship"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps7.jpg"
               width={120}
@@ -72,7 +72,7 @@ const Hero = () => {
               alt="Picture of the Partner Ship"
             />
           </div>
-          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video">
+          <div className="opacity-30 overflow-hidden flex hover:opacity-100 bg-blue-100 aspect-video transition-transform duration-300 ease-in-out transform hover:scale-110">
             <Image
               src="/ps8.jpg"
               width={120}
@@ -86,7 +86,7 @@ const Hero = () => {
         <div className="relative w-full aspect-video">
           <div className="bg-primary w-full">
             <Image
-              className="border absolute top-0 left-0 aspect-video w-10/12 brightness-50 hover:brightness-100 hover:w-11/12 hover:z-20"
+              className="border absolute top-0 left-0 aspect-video w-10/12 brightness-50 transition-all duration-299 ease-in-out transform hover:brightness-100 hover:w-11/12 hover:z-20"
               src="/bg1.jpg"
               width={300}
               height={300}
@@ -95,7 +95,7 @@ const Hero = () => {
           </div>
           <div className="bg-blue-500 w-full">
             <Image
-              className="border absolute bottom-0 right-0 aspect-video w-10/12 brightness-50 hover:brightness-100 hover:w-11/12 hover:z-20"
+              className="border absolute bottom-0 right-0 aspect-video w-10/12 brightness-50 transition-all duration-300 ease-in-out transform hover:brightness-100 hover:w-11/12 hover:z-20"
               src="/bg2.jpg"
               width={120}
               height={300}

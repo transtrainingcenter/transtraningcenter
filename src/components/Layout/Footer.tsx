@@ -25,7 +25,7 @@ const dataFooterLinks: FooterLinksProps[] = [
     links: [
       { title: "Home", href: "#" },
       { title: "About", href: "#about" },
-      { title: "Programs", href: "#programs" },
+      { title: "Products", href: "#products" },
       { title: "Gallery", href: "#gallery" },
       { title: "Contact", href: "#contact" },
     ],

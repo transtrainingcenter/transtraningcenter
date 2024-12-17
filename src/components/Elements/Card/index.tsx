@@ -13,7 +13,7 @@ const Card = ({
     <div className="flex lg:w-[49%] gap-2 items-center">
       <div className="bg-blue-100 flex overflow-clip aspect-square w-24">
         <Image
-          className="aspect-square w-24 object-cover"
+          className="aspect-square w-24 transition-all duration-300 hover:scale-110 object-cover"
           src={image}
           width={96}
           height={96}

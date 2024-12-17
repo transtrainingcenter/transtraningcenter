@@ -14,9 +14,9 @@ const About = () => {
           dalam bidang Alat Berat serta menjadi partner terpercaya dalam
           peningkatan dan pengembangan bisnis.
         </p>
-        <div className="bg-blue-100 aspect-video">
+        <div className="bg-blue-100 aspect-video flex justify-center items-center overflow-hidden">
           <Image
-            className="aspect-video object-cover"
+            className="transform transition-transform duration-300 hover:scale-95"
             src="/about.jpg"
             width={600}
             height={450}
