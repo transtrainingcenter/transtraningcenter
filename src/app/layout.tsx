@@ -8,7 +8,7 @@ import { Footer } from "@/components/Layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PT. Trans Putra Pratama - TRANS TRAINING CENTER",
+  title: "Trans Putra Pratama - TRANS TRAINING CENTER | PT. TRANS PUTRA PRATAMA",
   description:
     "Lembaga Pendidikan Ketrampilan yang mengkhususkan diri sebagai tempat Pendidikan, Pelatihan dan Pengembangan untuk mencetak SDM yang Handal, Berkarakter dan Terpecaya dalam bidang Alat Berat serta menjadi partner terpercaya dalam peningkatan dan pengembangan bisnis.",
   openGraph: {
