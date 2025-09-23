@@ -1,37 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚜 Trans Training Center (TTC)
 
-## Getting Started
+**PT. Trans Putra Pratama – Trans Training Center (TTC)** adalah lembaga pelatihan teknisi dan operator alat berat yang berdiri sejak 2020 di Banyuwangi, Jawa Timur.  
+Kami fokus pada pendidikan dan pengembangan SDM yang **handal, berkarakter, dan siap kerja** di dunia tambang & alat berat.
 
-First, run the development server:
+🌍 Website: [transputrapratama.vercel.app](https://transputrapratama.vercel.app)  
+📱 Instagram: [@transtrainingcenter](https://instagram.com/transtrainingcenter)  
+📱 TikTok: [@ttcbwi](https://tiktok.com/@ttcbwi)  
+📩 Email: ttcbanyuwangi2020@gmail.com  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Visi
+Menjadi lembaga pelatihan alat berat yang profesional, terpercaya, dan berkarakter.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Misi
+- Menyelenggarakan pelatihan profesional.  
+- Menyediakan SDM siap kerja.  
+- Mendidik generasi muda berkarakter.  
+- Memberi manfaat untuk masyarakat & mitra industri.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📚 Program Utama
+1. **BMC (Basic Mechanic Course)**  
+   - Durasi ±3 bulan.  
+   - Teori & praktik di workshop.  
+   - Sertifikat resmi.  
 
-To learn more about Next.js, take a look at the following resources:
+2. **BMC + OJT (On the Job Training)**  
+   - Minimal 6 bulan di industri.  
+   - Pendampingan oleh trainer berpengalaman.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Pelatihan Operator Alat Berat** *(coming soon)*  
+   - In-class training + praktik lapangan.  
+   - Opsi magang & sertifikasi.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🏗️ Fasilitas
+- Ruang kelas ber-AC.  
+- Workshop praktik mekanik.  
+- Modul & materi training.  
+- Seragam, safety gear, sepatu, helm, tas TTC.  
+- Sertifikat BMC & OJT.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# ayah
+## 🎨 Brand Guideline
+- **Logo**:  
+  - Kotak (TP hijau-biru) → konteks profesional (website, legal, sertifikat).  
+  - Bulat (excavator kuning-biru) → konteks semi-formal (media sosial, merchandise).  
+- **Warna Utama**:  
+  - Royal Blue `#0033A0`  
+  - Emerald Green `#008060`  
+  - Bright Yellow `#FFD700`  
+  - Sky Blue `#3399FF`  
+- **Typography**:  
+  - Heading: *Poppins Bold*  
+  - Subheading: *Montserrat SemiBold*  
+  - Body: *Roboto Regular*  
+  - Display: *Bebas Neue*  
+
+👉 Detail lengkap ada di [Brand Guideline](https://transtrainingcenter.github.io/brand-guideline/).  
+
+---
+
+## 👥 Tim TTC
+- **Haris Setiawan, M.T** – Direktur / Founder (ex-PT United Tractors, PT BUMA).  
+- **Andik Supandi** – Komisaris (25+ tahun pengalaman alat berat).  
+- Trainer & admin profesional dengan latar belakang industri.  
+
+---
+
+## 📞 Kontak & Pendaftaran
+📍 Jl. Sidorejo Wetan, Yosomulyo – Gambiran, Banyuwangi  
+📲 WhatsApp: 0822-2909-9842 / 0822-4561-4782  
+📝 Pendaftaran dibuka setiap saat (kuota terbatas 15–20 peserta per angkatan).  
+
+---
+
+## ⚡ Quick Links
+- 📂 [Company Profile](./docs/company-profile.pdf)  
+- 🎨 [Brand Guideline](https://transtrainingcenter.github.io/brand-guideline/)  
+- 🖼️ [Visual Mockup](./docs/visual-mockup.html)  
+
+---
+
+## 🛠️ Lisensi
+Proyek ini dibuat untuk keperluan internal & promosi TTC.  
+Konten tidak untuk dipakai ulang tanpa izin resmi dari **PT. Trans Putra Pratama**.
